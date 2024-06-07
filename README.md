@@ -6,4 +6,7 @@ this lets your slayer bot on binmaster easily take breaks, nothing else, read th
 3. open main.py in any text editor to see all fields that need to be changed (at the top)
 4. open cmd and enter `py main.py`
 
+
+(also you can open issues to suggest features)
+
 dm me on discord for support: hvhnn
