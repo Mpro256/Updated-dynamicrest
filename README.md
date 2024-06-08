@@ -1,5 +1,7 @@
 this lets your slayer bot on binmaster easily take breaks, nothing else, read the python file for any fields that need to be changed
 
+# warning: this doesnt allow you to write anything (so you cant use any commands)
+
 # installation:
 1. download python 3.12 (make sure to check `add python.exe to path`)
 2. clone or download the repo
