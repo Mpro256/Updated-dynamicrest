@@ -5,22 +5,22 @@ import random as r
 from datetime import datetime as dt, timedelta as td
 from threading import Thread
 
-exe = "" # enter the path to binmaster slayer bot here
-wh_url = "" # enter your discord webhook here
+exe = "" # (string): Path to your binmaster executable
+wh_url = "" # (string): Discord Webhook URL
 
 
-active_time = 30
-break_time = 20
-active_randomization = 12
-break_randomization = 12
-warning_time = 5
+active_time = 30 #(int): Base time of running
+break_time = 20 # (int): Base time of the break
+active_randomization = 12 # (int): Randomization of running time
+break_randomization = 12 # (int): Randomization of break time
+warning_time = 5 # (int): Warns you N of minutes until finishing the break
 
 
-base_run_dur = active_time * 60 # in this case 30 is the amount of base minutes of running, you can set it to lower or higher but dont change the 60
-base_sleep_dur = break_time * 60 # in this case 20 is the amount of base minutes of the break, you can set it to lower or higher but dont change the 60
-run_var = active_randomization * 60 # here the minutes of running you set above get randomized by the range of 12 minutes, you can change this too but dont change the 60
-sleep_var = break_randomization * 60 # here the minutes of the break you set above get randomized by the range of 12 minutes, you can change this too but dont change the 60
-soontime = warning_time * 60 # this defines how much minutes before it will warn you before continuing (so if 5 minutes are left till continuing it will notify on the webhook) if you change the 5 it will notify at a different time but the message wont change, so dont change it unless you need to
+base_run_dur = active_time * 60
+base_sleep_dur = break_time * 60
+run_var = active_randomization * 60
+sleep_var = break_randomization * 60
+soontime = warning_time * 60
 
 def randomdur(base, var):
     return base + r.randint(-var, var)
