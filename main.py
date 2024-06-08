@@ -9,7 +9,7 @@ wh_url = "" # enter your discord webhook here
 
 base_run_dur = 40 * 60 # in this case 40 is the amount of base minutes of running, you can set it to lower or higher but dont change the 60
 
-base_sleep_dur = 20 * 60 # in this case 40 is the amount of base minutes of the break, you can set it to lower or higher but dont change the 60
+base_sleep_dur = 20 * 60 # in this case 20 is the amount of base minutes of the break, you can set it to lower or higher but dont change the 60
 
 run_var = 8 * 60 # here the minutes of running you set above get randomized by the range of 8 minutes, you can change this too but dont change the 60
 
