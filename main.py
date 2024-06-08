@@ -68,8 +68,6 @@ while True:
     webhook(stop_msg)
     proc.stdin.write("pause\n")
     proc.stdin.flush()
-    proc.stdin.write("test\n")
-    proc.stdin.flush()
     t.sleep(3)
     proc.terminate()
     output_thread.join()
