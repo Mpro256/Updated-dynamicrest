@@ -5,15 +5,16 @@ import random as r
 from datetime import datetime as dt, timedelta as td
 from threading import Thread
 
-exe = "" # (string): Path to your binmaster executable
-wh_url = "" # (string): Discord Webhook URL
+exe = "" # Path to your Binmaster executable (string)
+wh_url = "" # Discord Webhook URL (string)
 
 
-active_time = 30 #(int): Base time of running
-break_time = 20 # (int): Base time of the break
-active_randomization = 12 # (int): Randomization of running time
-break_randomization = 12 # (int): Randomization of break time
-warning_time = 5 # (int): Warns you N of minutes until finishing the break
+active_time = 30 # Base time for active running (int, minutes)
+break_time = 20 # Base time for breaks (int, minutes)
+active_randomization = 12 # Randomization for active running time (int, minutes)
+break_randomization = 12 # Randomization for break time (int, minutes)
+warning_time = 5 # Time to warn before the end of break (int, minutes)
+
 
 
 base_run_dur = active_time * 60
