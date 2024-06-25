@@ -1,6 +1,12 @@
-this lets your slayer bot on binmaster easily take breaks, nothing else, read the python file for any fields that need to be changed
+#This is dynamicrest but now without the discord webhooks and adding the ability to send messages or commands as the bot.
 
-### warning: this doesnt allow you to write anything (so you cant use any commands)
+###YOU MUST HAVE THE BINMASTER SLAYER MACRO PURCHASED TO USE THIS.
+
+
+
+this lets your slayer bot on binmaster easily take breaks and restart itself, read the python file for any fields that need to be changed
+
+
 
 # installation:
 1. download python 3.12 (make sure to check `add python.exe to path`)
@@ -10,6 +16,4 @@ this lets your slayer bot on binmaster easily take breaks, nothing else, read th
 5. open cmd and enter `py main.py`
 
 
-(also you can open issues to suggest features)
 
-dm me on discord for support: hvhnn
